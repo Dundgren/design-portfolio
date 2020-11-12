@@ -337,4 +337,86 @@ template {
   display: none;
 }
 
+body {
+  background-color: #fff;
+  overflow: auto;
+}
+
+.nav a, .header a {
+  text-decoration: none;
+  color: #181818;
+}
+
+.logo {
+  display: inline-block;
+  width: 8%;
+}
+.logo img {
+  border-radius: 4%;
+  max-width: 100%;
+  margin-right: 1em;
+}
+
+.header {
+  background-color: #249335;
+  overflow: auto;
+}
+.title {
+  display: inline-block;
+}
+.title h1 {
+  margin-top: 0;
+}
+.title p {
+  margin: 0;
+}
+
+.nav {
+  border-top: 1px solid;
+  padding: 1em;
+  background-color: #249335;
+}
+.nav a {
+  display: inline-block;
+}
+
+.flash-region {
+  background-color: #cecece;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1em;
+}
+.flash-region img {
+  max-width: 100%;
+}
+
+.main {
+  max-width: 960px;
+  min-height: 90vh;
+  margin: 0 auto;
+  background-color: #cecece;
+  overflow: auto;
+  padding: 1em;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #249335;
+  overflow: auto;
+  padding: 1em;
+}
+
+.image-medium {
+  width: 60%;
+}
+
+.social {
+  float: right;
+}
+
 /*# sourceMappingURL=style.min.css.map */

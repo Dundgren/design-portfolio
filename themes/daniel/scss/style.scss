@@ -1,1 +1,88 @@
 @import '../../shared/scss/base';
+
+%link-style {
+    text-decoration: none;
+    color: $text-color;
+}
+
+.logo {
+    display: inline-block;
+    width: 8%;
+
+    img {
+        border-radius: 4%;
+        max-width: 100%;
+        margin-right: 1em;
+    }
+}
+
+.header {
+    background-color: $green;
+    overflow: auto;
+
+    a {
+        @extend %link-style;
+    }
+}
+
+.title {
+    display: inline-block;
+    
+    h1 {
+        margin-top: 0;
+    }
+    p {
+        margin: 0;
+    }
+}
+
+.nav {
+    border-top: 1px solid;
+    padding: 1em;
+    background-color: $green;
+
+    a {
+        @extend %link-style;
+        display: inline-block;
+    }
+}
+
+.flash-region {
+    background-color: #cecece;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1em;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.main {
+    max-width: 960px;
+    min-height: 90vh;
+    margin: 0 auto;
+    background-color: #cecece;
+    overflow: auto;
+    padding: 1em;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: $green;
+    overflow: auto;
+    padding: 1em;
+}
+
+.image-medium {
+    width: 60%;
+}
+
+.social {
+    float: right;
+}
