@@ -1,8 +1,17 @@
 @import '../../shared/scss/base';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
 
 %link-style {
     text-decoration: none;
     color: $link-color;
+}
+
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
 }
 
 /*
@@ -86,9 +95,9 @@
 */
 .main {
     @extend %content-center;
-    max-width: 960px;
     background-color: #dadada;
     overflow: auto;
+    min-height: 90vh;
 }
 
 .content {
@@ -111,7 +120,7 @@
 
     a {
         @extend %link-style;
-        font-size: 3em;
+        font-size: 2em;
     }
 
     a:hover {
