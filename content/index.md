@@ -12,4 +12,4 @@ Jag är en blandning av norr och syd. Pappa från Boden och Mamma från lilla Fr
 
 Mitt största hobbyintresse är pistolskytte. Det har hängt med hela mitt liv. Så fort jag fyllde 18 gick jag med i min pappas klubb och sökte licens. Numera skjuter jag varje lördagmorgon och tillverkar även min egen ammunition. Skytte är ett utmärkt sätt att släppa på lite stress som kan byggas upp under veckorna.
 
-![Image of me](%assets_url%/img/danielsummer.jpg){.image .large}
+![Image of me](%assets_url%/img/danielsummer.jpg){.image-medium}
