@@ -10,7 +10,12 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -24,8 +29,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-    display: inline-block;
+    float: left;
     width: 77px;
+    margin-right: 1em;
 
     img {
         border-radius: 4%;
@@ -34,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-    display: inline-block;
+    display: block;
     
     h1 {
         margin: 0;
@@ -133,4 +139,38 @@ h1, h2, h3, h4, h5, h6 {
 */
 .image-medium {
     width: 60%;
+}
+
+/*
+* Mobile
+*/
+@media (max-width: 980px) {
+    p {
+        font-size: 1.1em;
+    }
+
+    .nav {
+        a {
+            display: block;
+            margin: 1em;
+        }
+    }
+
+    .flash-region {
+        padding: 0;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .social {
+        a {
+            margin-left: 0.5em;
+        }
+    }
+
+    .image-medium {
+        width: 80%;
+    }
 }
