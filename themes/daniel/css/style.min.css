@@ -337,53 +337,90 @@ template {
   display: none;
 }
 
+.main, .flash-region, .nav, .header {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+html {
+  font-size: 100%;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 1.375em;
+}
+
 body {
   background-color: #fff;
   overflow: auto;
+  line-height: 1.25;
 }
 
-.nav a, .header a {
+.social a, .nav a {
   text-decoration: none;
-  color: #181818;
+  color: rgba(255, 255, 255, 0.9);
 }
 
-.logo {
-  display: inline-block;
-  width: 8%;
-}
-.logo img {
-  border-radius: 4%;
-  max-width: 100%;
-  margin-right: 1em;
-}
-
+/*
+* Header
+*/
 .header {
   background-color: #249335;
   overflow: auto;
 }
+
+.logo {
+  display: inline-block;
+  width: 77px;
+}
+.logo img {
+  border-radius: 4%;
+  max-width: 100%;
+}
+
 .title {
   display: inline-block;
 }
 .title h1 {
-  margin-top: 0;
+  margin: 0;
 }
 .title p {
   margin: 0;
 }
+.title a {
+  text-decoration: none;
+  color: #fff;
+}
 
+/*
+* Navbar
+*/
 .nav {
-  border-top: 1px solid;
-  padding: 1em;
+  border-top: 1px solid rgba(255, 255, 255, 0.9);
   background-color: #249335;
+  text-align: center;
 }
 .nav a {
   display: inline-block;
+  padding: 0 0.3em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.nav a:hover {
+  color: #fff;
 }
 
+.active {
+  color: #fff !important;
+}
+
+/*
+* Flash-image
+*/
 .flash-region {
-  background-color: #cecece;
-  max-width: 960px;
-  margin: 0 auto;
+  background-color: #dadada;
   text-align: center;
   padding: 0 1em;
 }
@@ -391,32 +428,45 @@ body {
   max-width: 100%;
 }
 
+/*
+* Main
+*/
 .main {
   max-width: 960px;
-  min-height: 90vh;
-  margin: 0 auto;
-  background-color: #cecece;
+  background-color: #dadada;
   overflow: auto;
-  padding: 1em;
 }
 
 .content {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
+/*
+* Footer
+*/
 .footer {
   background-color: #249335;
   overflow: auto;
   padding: 1em;
-}
-
-.image-medium {
-  width: 60%;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .social {
   float: right;
+}
+.social a {
+  font-size: 3em;
+}
+.social a:hover {
+  color: #fff;
+}
+
+/*
+* Misc
+*/
+.image-medium {
+  width: 60%;
 }
 
 /*# sourceMappingURL=style.min.css.map */

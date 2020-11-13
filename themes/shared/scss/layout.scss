@@ -1,4 +1,20 @@
+%content-center {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+html {
+    font-size: 100%;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 1.375em;
+}
+
 body {
     background-color: #fff;
     overflow: auto;
+    line-height: 1.25;
 }

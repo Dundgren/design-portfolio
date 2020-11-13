@@ -2,26 +2,25 @@
 
 %link-style {
     text-decoration: none;
-    color: $text-color;
+    color: $link-color;
+}
+
+/*
+* Header
+*/
+.header {
+    @extend %content-center;
+    background-color: $green;
+    overflow: auto;
 }
 
 .logo {
     display: inline-block;
-    width: 8%;
+    width: 77px;
 
     img {
         border-radius: 4%;
         max-width: 100%;
-        margin-right: 1em;
-    }
-}
-
-.header {
-    background-color: $green;
-    overflow: auto;
-
-    a {
-        @extend %link-style;
     }
 }
 
@@ -29,28 +28,51 @@
     display: inline-block;
     
     h1 {
-        margin-top: 0;
+        margin: 0;
     }
+
     p {
         margin: 0;
     }
+
+    a {
+        text-decoration: none;
+        color: $link-color-hover;
+    }
 }
 
+/*
+* Navbar
+*/
 .nav {
-    border-top: 1px solid;
-    padding: 1em;
+    @extend %content-center;
+    border-top: 1px solid $link-color;
     background-color: $green;
+    text-align: center;
 
     a {
         @extend %link-style;
         display: inline-block;
+        padding: 0 0.3em;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: $link-color-hover;
     }
 }
 
+.active {
+    color: $link-color-hover !important;
+}
+
+/*
+* Flash-image
+*/
 .flash-region {
-    background-color: #cecece;
-    max-width: 960px;
-    margin: 0 auto;
+    @extend %content-center;
+    background-color: #dadada;
     text-align: center;
     padding: 0 1em;
 
@@ -59,30 +81,47 @@
     }
 }
 
+/*
+* Main
+*/
 .main {
+    @extend %content-center;
     max-width: 960px;
-    min-height: 90vh;
-    margin: 0 auto;
-    background-color: #cecece;
+    background-color: #dadada;
     overflow: auto;
-    padding: 1em;
 }
 
 .content {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
+/*
+* Footer
+*/
 .footer {
     background-color: $green;
     overflow: auto;
     padding: 1em;
-}
-
-.image-medium {
-    width: 60%;
+    color: $link-color;
 }
 
 .social {
     float: right;
+
+    a {
+        @extend %link-style;
+        font-size: 3em;
+    }
+
+    a:hover {
+        color: $link-color-hover;
+    }
+}
+
+/*
+* Misc
+*/
+.image-medium {
+    width: 60%;
 }
