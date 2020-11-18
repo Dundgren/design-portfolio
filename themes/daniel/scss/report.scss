@@ -38,6 +38,27 @@
 }
 
 /*
+* Kmom-content
+*/
+.kmom-content {
+    display: grid;
+    grid-template-columns: 120px auto;
+}
+
+.kmom-links {
+    grid-column: 1 / 1;
+
+    a {
+        text-decoration: none;
+        color: $text-color;
+    }
+
+    a:hover {
+        color: $green;
+    }
+}
+
+/*
 * Mobile
 */
 @media (max-width: 980px) {
@@ -55,5 +76,13 @@
 
     .project {
         grid-column: span 1;
+    }
+
+    .kmom-links {
+        display: none;
+    }
+
+    .kmom-content {
+        display: block;
     }
 }
