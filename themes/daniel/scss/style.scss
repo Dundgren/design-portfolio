@@ -23,7 +23,7 @@ h6 {
 * Header
 */
 .header {
-    @extend %content-center;
+    padding: 1em;
     background-color: $green;
     overflow: auto;
 }
@@ -60,7 +60,7 @@ h6 {
 * Navbar
 */
 .nav {
-    @extend %content-center;
+    padding: 1em;
     border-top: 1px solid $link-color;
     background-color: $green;
     text-align: center;
@@ -87,7 +87,7 @@ h6 {
 */
 .flash-region {
     @extend %content-center;
-    background-color: #dadada;
+    background-color: #fff;
     text-align: center;
     padding: 0 1em;
 
@@ -101,7 +101,7 @@ h6 {
 */
 .main {
     @extend %content-center;
-    background-color: #dadada;
+    background-color: #fff;
     overflow: auto;
     min-height: 90vh;
 }
