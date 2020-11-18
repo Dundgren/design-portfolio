@@ -1,0 +1,59 @@
+.landingpage {
+    display: grid;
+    gap: 1em;
+
+    h1 {
+        grid-column: span 3;
+        justify-self: center;
+    }
+}
+
+.kmom-box {
+    border: 1px solid;
+    height: 10em;
+    position: relative;
+
+    p {
+        color: #fff;
+        background-color: $green;
+        padding: 1em;
+        margin: 0;
+    }
+
+    i {
+        position: absolute;
+        bottom: 0.1em;
+        right: 0.1em;
+        font-size: 2em;
+    }
+
+    a {
+        color: $text-color;
+    }
+
+}
+
+.project {
+    grid-column: span 3;
+}
+
+/*
+* Mobile
+*/
+@media (max-width: 980px) {
+    .landingpage {
+        h1 {
+            grid-column: span 1;
+        }
+    }
+
+    .kmom-box {
+        i {
+            font-size: 3em;
+        }
+    }
+
+    .project {
+        grid-column: span 1;
+    }
+}
