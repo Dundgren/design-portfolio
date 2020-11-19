@@ -38,6 +38,6 @@ Kursmoment
 </div>
 
 <div class="kmom-box project">
-    <p>Kmom07-10</p>
+    <p>Projekt</p>
     <a href="report/kmom07"><i class="far fa-arrow-alt-circle-right"></i></a>
 </div>
