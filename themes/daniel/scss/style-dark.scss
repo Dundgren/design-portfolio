@@ -1,4 +1,4 @@
-@import '../../shared/scss/variables';
+@import '../../shared/scss/variables-dark';
 @import '../../shared/scss/base';
 @import 'report';
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
@@ -10,6 +10,10 @@
 
 * {
     font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    filter: brightness(85%);
 }
 
 /*

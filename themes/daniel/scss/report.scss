@@ -10,14 +10,13 @@
 }
 
 .kmom-box {
-    border: 1px solid;
     height: 10em;
     max-width: 100%;
     position: relative;
+    background-color: $tertiary-color;
 
     h4 {
-        color: #fff;
-        background-color: $green;
+        background-color: $quaternary-color;
         padding: 1em;
         margin: 0;
     }
@@ -36,11 +35,11 @@
     }
 
     a {
-        color: $text-color;
+        color: $link-color;
     }
 
     a:hover {
-        color: rgb(36, 36, 36, 0.8);
+        color: $link-color-hover;
     }
 
 }
@@ -62,11 +61,11 @@
 
     a {
         text-decoration: none;
-        color: $text-color;
+        color: $link-color;
     }
 
     a:hover {
-        color: $green;
+        color: $link-color-hover;
     }
 }
 

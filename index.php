@@ -29,7 +29,32 @@ $pico = new Pico(
 );
 
 // override configuration?
-//$pico->setConfig(array());
+$pico->setConfig(array(
+    'session' => $_SESSION
+));
+
+if (isset($_GET["action"])) {
+    if ($_GET["action"] == "theme") {
+        $previousValue = isset($_SESSION["theme"]) ? $_SESSION["theme"] : null;
+    
+        if ($previousValue == "dark") {
+            unset($_SESSION["theme"]);
+        } else {
+            $_SESSION["theme"] = "dark";
+        }
+    
+        $url = "http://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
+        $url = preg_replace("/index.php\//", "", $url);
+        header("Location: $url");
+    }
+
+    if ($_GET["action"] == "session_destroy") {
+        session_destroy();
+        $url = "http://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
+        $url = preg_replace("/index.php\//", "", $url);
+        header("Location: $url");
+    }
+}
 
 // run application
 echo $pico->run();

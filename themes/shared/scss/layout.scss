@@ -6,6 +6,7 @@
 
 html {
     font-size: 100%;
+    color: $text-color;
 }
 
 p {
@@ -14,11 +15,7 @@ p {
 }
 
 body {
-    background-color: #fff;
+    background-color: $background-color;
     overflow: auto;
     line-height: 1.25;
-}
-
-.content {
-    color: $text-color;
 }

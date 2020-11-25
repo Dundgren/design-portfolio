@@ -355,7 +355,7 @@ p {
 }
 
 body {
-  background-color: #631b93;
+  background-color: #4c1074;
   overflow: auto;
   line-height: 1.25;
 }
@@ -6496,11 +6496,11 @@ readers do not read off random characters that represent icons */
   height: 10em;
   max-width: 100%;
   position: relative;
-  background-color: #74389d;
+  background-color: #631b93;
 }
 .kmom-box h4 {
   color: #fff;
-  background-color: #8f5ab3;
+  background-color: #74389d;
   padding: 1em;
   margin: 0;
 }
@@ -6542,7 +6542,7 @@ readers do not read off random characters that represent icons */
   color: #dddddd;
 }
 .kmom-links a:hover {
-  color: #4c1074;
+  color: #38055a;
 }
 
 /*
@@ -6595,7 +6595,7 @@ h6 {
 */
 .header {
   padding: 1em;
-  background-color: #4c1074;
+  background-color: #38055a;
   overflow: auto;
 }
 
@@ -6629,7 +6629,7 @@ h6 {
 .nav {
   padding: 1em;
   border-top: 1px solid rgba(255, 255, 255, 0.8);
-  background-color: #4c1074;
+  background-color: #38055a;
   text-align: center;
 }
 .nav a {
@@ -6650,7 +6650,7 @@ h6 {
 * Flash-image
 */
 .flash-region {
-  background-color: #631b93;
+  background-color: #4c1074;
   text-align: center;
   padding: 0 1em;
 }
@@ -6662,7 +6662,7 @@ h6 {
 * Main
 */
 .main {
-  background-color: #631b93;
+  background-color: #4c1074;
   overflow: auto;
   min-height: 90vh;
 }
@@ -6676,14 +6676,15 @@ h6 {
 * Footer
 */
 .footer {
-  background-color: #4c1074;
+  background-color: #38055a;
   overflow: auto;
   padding: 1em;
   color: rgba(255, 255, 255, 0.8);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
+.social {
+  float: right;
+}
 .social a {
   font-size: 2em;
 }

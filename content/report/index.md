@@ -28,7 +28,7 @@ Kursmoment
 <div class="kmom-box">
     <h4>Kmom04</h4>
     <a href="report/kmom04"><i class="far fa-arrow-alt-circle-right"></i></a>
-    <p>KmomX va väldigt kul...</p>
+    <p>Det här kursmomentet har väckt blandade känslor hos mig.</p>
 </div>
 
 <div class="kmom-box">
