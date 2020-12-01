@@ -1,5 +1,5 @@
 ---
-Logo: image/logo.jpg
+Logo: image/logo.jpg?width=50%&q=30
 Tagline: Dbwebb student
 Social:
     - title: Link to site github repo
