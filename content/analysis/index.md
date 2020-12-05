@@ -15,12 +15,12 @@ Analysis
 
 <div class="kmom-box">
     <h4>Load</h4>
-    <a href="report/02_load"><i class="far fa-arrow-alt-circle-right"></i></a>
-    <p>Analysis.</p>
+    <a href="analysis/02_load"><i class="far fa-arrow-alt-circle-right"></i></a>
+    <p>Analysing loadtimes.</p>
 </div>
 
 <div class="kmom-box">
     <h4>Design principles</h4>
-    <a href="report/03_design"><i class="far fa-arrow-alt-circle-right"></i></a>
+    <a href="analysis/03_design"><i class="far fa-arrow-alt-circle-right"></i></a>
     <p>Analysis.</p>
 </div>
