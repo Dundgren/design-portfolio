@@ -15,10 +15,12 @@
     position: relative;
     background-color: $tertiary-color;
 
-    h4 {
+    h1 {
         background-color: $quaternary-color;
         padding: 1em;
         margin: 0;
+        font-size: 1em;
+        color: $quaternary-text-color;
     }
 
     p {
@@ -27,15 +29,12 @@
         margin: 0;
     }
 
-    i {
+    a {
+        color: $link-color;
         position: absolute;
         bottom: 0.1em;
         right: 0.1em;
         font-size: 2em;
-    }
-
-    a {
-        color: $link-color;
     }
 
     a:hover {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="sv">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,9 +33,7 @@
         <div class="container">
             {% if pages["_meta"].meta.logo %}
                 <div class="logo" aria-hidden="true">
-                    <a href="{{ "index"|link }}">
-                        <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
-                    </a>
+                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
                 </div>
             {% endif %}
             <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
@@ -54,7 +52,7 @@
         </div>
     </div>
     <div class="flash-region">
-        <img class="flash-img" src="{{ base_url }}/image/keyboard.jpg">
+        <img class="flash-img" src="{{ base_url }}/image/keyboard.jpg" alt="Keyboard illustration">
     </div>
     <div class="main" role="main">
         <div class="content">

@@ -163,22 +163,22 @@ Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incid
 <fieldset>
     <legend>Legend</legend>
     <label>Label</label>
-    <input type="checkbox"/>
-    <input type="checkbox" checked="checked"/>
-    <input type="radio"/>
-    <input type="radio" checked="checked"/><br/>
-    <input type="text" value="Lorem ipsum"/>
-    <input type="password" value="Ut enim"/><br/>
+    <input type="checkbox" title="Checkbox title"/>
+    <input type="checkbox" checked="checked" title="Checkbox checked title"/>
+    <input type="radio" title="Radio title"/>
+    <input type="radio" checked="checked" title="Radio checked title"/><br/>
+    <input type="text" value="Lorem ipsum" title="Text title"/>
+    <input type="password" value="Ut enim" title="Password title"/><br/>
     <input type="submit" value="Submit"/>
     <input type="reset" value="Reset"/>
     <input type="button" value="Button (Input)"/>
     <button>Button</button><br/>
-    <textarea>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua<br/>.</textarea><br/>
-    <select>
+    <textarea title="Textarea title">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua<br/>.</textarea><br/>
+    <select title="Select title">
         <option>Lorem ipsum</option>
         <option>Ut enim</option>
     </select><br/>
-    <select multiple="multiple">
+    <select multiple="multiple" title="Select multiple title">
         <option>Lorem ipsum</option>
         <option selected="selected">Ut enim</option>
         <option>Quis aute iure</option>
