@@ -40,11 +40,11 @@ Kursmoment
 <div class="kmom-box">
     <h1>Kmom06</h1>
     <a href="report/kmom06"><i class="far fa-arrow-alt-circle-right" title="Read more"></i></a>
-    <p>KmomX va väldigt kul...</p>
+    <p>Att analysera hemsidor från ett perspektiv...</p>
 </div>
 
 <div class="kmom-box project">
     <h1>Projekt</h1>
     <a href="report/kmom07"><i class="far fa-arrow-alt-circle-right" title="Read more"></i></a>
-    <p>KmomX va väldigt kul...</p>
+    <p>För att starta hela uppgiften valde jag...</p>
 </div>
